@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EBE4DC;
+}
+@font-face {
+    font-family: "AVENIR";
+    src: url("/font/Karu Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "CHEROLINA";
+    src: url("/font/Cherolina.otf") format("opentype");
+}
+@font-face {
+    font-family: "AVENIR_TITRE";
+    src: url("/font/karu-regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: "AVENIR_LIGHT";
+    src: url("/font/karu-extralight.ttf") format("opentype");
+}
+
+p{
+    font-family: "AVENIR";
+    color: black;
+}
+h1{
+    font-family: "CHEROLINA";
+    color: #854646;
+    font-size: 100px;
+    font-weight: 100;
+}
+h2,h3,h4 {
+    font-family: "AVENIR_TITRE";
+    text-transform: uppercase;
+    color: black;
+}
+header{
+    font-family: "AVENIR_LIGHT";
+    padding: 18px 0px 0px 20px;
+   
+}

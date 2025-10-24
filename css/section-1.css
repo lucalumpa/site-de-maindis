@@ -1,0 +1,17 @@
+#section-banniere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10%;
+    /* border: 1px solid; */
+}
+#section-banniere h1{
+    width: 50%;
+    /* border: 1px solid; */
+}
+#section-banniere p{
+    width: 50%;
+    text-align: left;
+    /* border: 1px solid; */
+}
