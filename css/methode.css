@@ -1,0 +1,18 @@
+#section-methode{
+    height: 70vh;
+    background-color:ivory;
+    margin: 100px 0px 200px 0px ;
+    display: flex;
+
+}
+#methode-gauche{
+
+    flex: 1;
+}
+#methode-gauche img{
+    height: 100%;
+}
+#methode-droite {
+
+    flex: 1;
+}

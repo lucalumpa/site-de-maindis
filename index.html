@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atelier De Maindis</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
 </head>
 <body>
     <header>ACCUEIL - PROJET - METHODE - CONTACT</header>
@@ -76,25 +78,61 @@
     </div>
 </div>
 <div id="legende">
-
+<p>* « espace respecté, protégé, en anglais Sanctuary,  a une double acceptation, à la fois lieu sacré (autel, mausolée,
+chapelle, châsse, reliquaire) et une réserve naturelle » citation de herman de vries</p>
 </div>
 <!-- SECTION CAROUSEL -->
 
 <div id="section-carousel">
+<div class="splide" id="image-carousel">
+    <div class="splide__track">
+        <ul class="splide__list">
+            <li class="splide__slide"><img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC07860.jpg" width="100%" alt="Image 1"></li>
+            <li class="splide__slide"><img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08071.jpg" width="100%" alt="Image 2"></li>
+            <li class="splide__slide"><img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08394.jpg" width="100%" alt="Image 3"></li>
+            <li class="splide__slide"><img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08702.jpg" width="100%" alt="Image 4"></li>
+            <li class="splide__slide"><img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08475.jpg" width="100%" alt="Image 3"></li>
+            <li class="splide__slide"><img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC07949.jpg" width="100%" alt="Image 3"></li>
+            <li class="splide__slide"><img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08697.jpg" width="100%" alt="Image 3"></li>
+        </ul>
+    </div>
+</div>
 
 </div>
 
 <!-- SECTION METHODE & SAVOIR FAIRE -->
 
 <div id="section-methode">
-    <div id="methode-gauche"></div>
-    <div id="methode-droite"></div>
+    <div id="methode-gauche">
+        <img src="/img/dessin_brouillon.svg" width="100%" alt="dessin brouillon">
+    </div>
+    <div id="methode-droite">
+        <h2>METHODE & </br>SAVOIR-FAIRE</h2>
+        <p>Les dessins et les esquisses permettent d’orienter le choix des formes en relation avec les spécificités du  projet. Des
+        maquettes en terres cuites de 30 cm sont réalisées pour  permettent une première projection des formes dans l’espace et
+        de proposer ainsi des ajustements avant la phase finale de réalisation. 
+        
+        Les pièces sont principalement tournées à la main, avec des terres non gélives, riches en chamotte, pour leur résistance
+        thermique et mécanique. Les matériaux utilisés, notamment la pierre et l’argile soulignent la durabilité et la fragilité
+        des éléments. Les couleurs naturelles, jouant sur des contrastes entre le blanc et le rouge brique, accentuent la
+        simplicité brute de la matière, tout en s’intégrant délicatement dans le paysage environnant.</p>
+    </div>
 </div>
 
 <!-- SECTION ARTISTE ET JARDIN -->
 
 <div id="section-artiste-jardin">
-    <div id="biographie"></div>
+    <h2>L’ARTISTE ET LA MAIN,<br>
+    L’ART AU CENTRE<br>
+    DE TOUT.</h2>
+    <div id="biographie">
+        <p>Andrea De Maindis est issu d'une longue lignée de petits paysans italiens du Montefeltro, il a grandi entre France et
+        Italie, développant un lien charnel avec la terre. Cette relation forte l’a amené naturellement vers une première
+        existence dans l’ingénierie du vivant. Par la suite, il a retrouvé dans la céramique un prolongement sincère de cette
+        fusion entre le vivant et  la matière. Formé à l’Ecole d’Art Céramique de Vallauris en 2021,  il a  depuis, enrichi sa
+        pratique à travers de multiples ateliers auprès de céramistes de notoriété internationale et participé à plusieurs
+        exposition à Biot et Vallauris</p>
+    </div>
     <div id="main"></div>
     <div id="fleche-jardin"></div>
     <div id="sous-section-jardin">
@@ -111,7 +149,27 @@
 <!-- GALERIE -->
 
 <div id="section-galerie">
-
+<div class="album">
+    <div class="responsive-container-block bg">
+        <div class="responsive-container-block img-cont">
+            <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.4.svg">
+            <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.5.svg">
+            <img class="img img-last"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/PP5.6.svg">
+        </div>
+        <div class="responsive-container-block img-cont">
+            <img class="img img-big"
+                src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08040.jpg">
+            <img class="img img-big img-last"
+                src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08156.jpg">
+        </div>
+        <div class="responsive-container-block img-cont">
+            <img class="img" src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08382.jpg">
+            <img class="img" src="/img/dessin_brouillon.svg">
+            <img class="img" src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08526.jpg">
+        </div>
+    </div>
+</div>
 </div>
 
 <!-- CTA -->
@@ -174,6 +232,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
 
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <script type="module" src="./js/main.js"></script>
+
+
 </body>
 </html>
