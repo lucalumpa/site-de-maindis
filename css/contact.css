@@ -1,0 +1,58 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#formulaire{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#photo-formulaire{
+    width: 100%;
+    flex: 1;
+}
+#formulaire-texte{
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#formulaire-texte p{
+    text-align: left;
+}
+
+#photo-formulaire{
+    width: 100%;
+  
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+
+}
+input{
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
+.case-formulaire{
+    width: 300px;
+    margin: 0px;
+    padding: 10px;
+
+}
+#message{
+    height: 150px;
+}
+#coordonee{
+    text-align: center;
+    margin: 100px 0px 100px 0px;
+}

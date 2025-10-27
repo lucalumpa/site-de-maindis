@@ -1,0 +1,10 @@
+#call-to-action{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 300px;
+}
+#call-to-action p{
+    width: 500px;
+}
