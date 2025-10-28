@@ -14,6 +14,7 @@
     <!-- DEBUT DE LA PAGE -->
 
     <div id="section-banniere">
+        <div id="texte-banniere">
     <h1>Atelier </br>De Maindis</h1>
     
     <p>
@@ -22,18 +23,33 @@
         originales s’intégrant dans la démarche et l’esthétique du projet.
     </p>
     </div>
-
+</div>
     <!-- VIDEO + ANIMATION FLECHE -->
 
     <div id="section-video-animation">
         <div id="video-principale-gauche">
-
+            <div class="box">
+                <video autoplay muted loop playsinline>
+                    <source src="https://atelier-de-maindis.fr/wp-content/uploads/2025/10/PHILO-VERTICAL.mov.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
         <div id="animation-fleche-debut">
+            
+                <svg viewBox="0 0 400 1000" class="viewbox_fleche">
+            
+                    <path id="fleche" d="M1300,0 C600,00 200,800 200,900" stroke="black" fill="none"></path>
+            
+                    <path id="chevron" d="M280,770 300,800 320,770" stroke="black" fill="none"></path>
 
+                    
+                </svg>
+            
+            
+            
         </div>
         <div id="photo-face-video">
-
+            <img src="/img/ALEX_PHOTOS/EXPORT/image18.jpg" height="100%">
         </div>
     </div>
 
@@ -313,6 +329,10 @@ chapelle, châsse, reliquaire) et une réserve naturelle » citation de herman 
 <!-- SECTION JAVASCRIPT -->
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/DrawSVGPlugin.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/MotionPathPlugin.min.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
 
