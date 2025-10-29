@@ -56,6 +56,8 @@
 }
 #video-principale-gauche{
     position: relative;
+    transform-origin: left;
+    transform: scale(1.5) translateY(0px);
 }
 .box {
     height: 400px;
@@ -90,6 +92,10 @@
     display: flex;
     justify-content: right;
     height: 300px;
+    position: absolute;
+    right: 0px;
+    transform: scale(2);
+    transform-origin: right;
 
     
 

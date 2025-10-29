@@ -14,11 +14,11 @@ export default function philo() {
                 scrollTrigger:{
                     scroller:"body",
                     trigger:conteneurPhilo,
-                   
+                //    markers:true,
                     scrub:2,
-                    end:"top 10%"
+                    end:"top top"
                 },
-                duration:3,
+                duration:1,
                 width:0
             })
 }

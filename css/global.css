@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #EBE4DC;
+    overflow-x:hidden ;
 }
 @font-face {
     font-family: "AVENIR";
