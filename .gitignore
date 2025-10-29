@@ -1,0 +1,20 @@
+# Ignorer toutes les images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# Ignorer les vidéos
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Ignorer les fichiers temporaires et autres
+*.psd
+*.zip
+*.rar
+*.DS_Store
+node_modules/
+dist/

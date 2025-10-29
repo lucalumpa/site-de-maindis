@@ -31,23 +31,32 @@ width: 100%;
     filter: saturate(0.7);
 
 }
-#fleche-jardin{
-    height: 300px;
+#fleche_jardin_bloc{
+    height: 500px;
+    position: relative;
 }
 
 #sous-section-jardin{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 100px;
+    position: relative;
 }
 
 #jardin-exception-gauche{
 
     flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 #jardin-exception-gauche img{
-border-radius: 100px;
+border-radius: 400px;
+width: 400px;
+height: 400px;
+object-fit: cover;
 
 }
 #jardin-exception-droite {
@@ -62,4 +71,41 @@ border-radius: 100px;
 }
 #bio_couleur{
     color: #854646;
+}
+#fleche_jardin{
+    stroke-width: 2px;
+    stroke: #854646;
+}
+#chevron_jardin{
+    stroke-width: 4px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform: scale(0.5);
+    stroke: #854646;
+}
+#ellipse_une{
+    stroke-width: 2px;
+   ;
+    stroke: #854646;
+transform-origin: center;
+    width: 500px;
+    height: 500px;
+   
+}
+#ellipse_deux {
+    stroke-width: 2px;
+    ;
+    stroke: #854646;
+    transform-origin: center;
+    width: 500px;
+    height: 500px;
+
+}
+#viewbox_cercles{
+position: absolute;
+width: 400px;
+transform: scale(1.5);
+transform-origin: center;
+
+top: 0;
 }

@@ -40,8 +40,21 @@ h2,h3,h4 {
     color: black;
 }
 header{
+    text-align: center;
     font-family: "AVENIR_LIGHT";
-    padding: 18px 0px 0px 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px;
+    color: rgb(255, 255, 255)4622;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.257);
+    backdrop-filter: blur(5px);
+    z-index:50;
+    border-radius: 40px;
+    left:50%;
+    transform: translateX(-50%);
+    transform-origin: center;
+    width: 40%;
+
    
 }
 button{
