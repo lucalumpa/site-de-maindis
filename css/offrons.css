@@ -1,10 +1,13 @@
 #section-offrons{
     height: 1200px;
     position: relative;
+    opacity: 0;
+    
 }
 #titre-offrons{
     text-align: center;
     font-size: 40px;
+    
 }
 #offrons{
     color: #854646;
@@ -41,12 +44,17 @@
     width: 100%;
     display: flex;
     justify-content: center;
-   
+    position: relative;
     gap: 40%;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .offrons-para p{
     width: 200px;
+    font-size: 20px;
+    
+}
+.rouge-offrons{
+    color: #854646;
 }
 
 #fleche-offrons{
@@ -85,4 +93,40 @@
     stroke-linecap: round;
     stroke-linejoin: round;
     transform: scale(0.5);
+}
+#compas{
+    position: absolute;
+    top: 0px;
+    transform: translate(500px,-700px) rotate(-40deg) scale(0.4);
+    opacity: 0.1;
+    filter: sepia(1);
+}
+#outil_deux{
+    position: absolute;
+        top: 0px;
+        transform: translate(-400px, -100px) rotate(-40deg) scale(0.4);
+        opacity: 0.1;
+        filter: sepia(1);
+}
+
+#outil_trois{
+    position: absolute;
+        top: 0px;
+        transform: translate(-300px, 500px) rotate(0deg) scale(0.7);
+        opacity: 0.1;
+        filter: sepia(1);
+}
+
+#outil_quatre {
+    position: absolute;
+    top: 0px;
+    transform: translate(400px, 900px) rotate(-10deg) scale(0.5);
+    opacity: 0.1;
+    filter: sepia(1);
+}
+#section-bouton{
+    opacity: 0;
+}
+#groupe-chevron{
+    opacity: 0;
 }

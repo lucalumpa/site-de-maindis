@@ -1,6 +1,9 @@
+
+
 export default function main_animation(){
 
     const main= document.querySelector("#main")
+    const biographie=document.querySelector("#biographie")
 
     gsap.from(main,{
 
@@ -15,7 +18,16 @@ export default function main_animation(){
         x:250
     })
  
-
+    gsap.to(biographie,{
+      
+        scrollTrigger:{
+            trigger:biographie,
+            start:"top 30%",
+            
+        },
+          opacity:1,
+        duration:1.5,
+    })
 
 
 }

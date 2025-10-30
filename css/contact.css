@@ -3,54 +3,68 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+   
 }
 #formulaire{
     display: flex;
-    width: 100%;
+    width: 50%;
     flex: 1;
     justify-content: center;
     align-items: center;
+    
    
 }
 
 #photo-formulaire{
-    width: 100%;
-    flex: 1;
+        
+        flex: 1;
+        display: flex;
+        justify-content: left;
+        width: 200px;
+        height: 350px;
+        
+        
+
+        
+}   
+#photo-formulaire img{
+width: 100%;
+border-radius: 20px;
+object-fit: cover;
 }
 #formulaire-texte{
-
+   
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     
 }
 #formulaire-texte p{
     text-align: left;
+    line-height: 0;
 }
 
-#photo-formulaire{
-    width: 100%;
-  
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
 
-}
 input{
     border: none;
     border-radius: 20px;
     width: 100%;
+    margin: 0px;
 }
 .case-formulaire{
     width: 300px;
     margin: 0px;
     padding: 10px;
+    
 
 }
 #message{
     height: 150px;
+    margin: 0px;
 }
 #coordonee{
     text-align: center;

@@ -41,6 +41,22 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
             })
 
+            gsap.to("#chevron",{
+                opacity:1,
+                scrollTrigger:{
+                    trigger:"#section-video-animation",
+                    start: "top 60%",
+                }
+            })
+
+            gsap.to("#section-banniere",{
+                duration:2,
+                opacity:1
+            })
+               gsap.to("#section-video-animation",{
+                duration:2,
+                opacity:1
+            })
 
 
         });
