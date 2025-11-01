@@ -58,12 +58,12 @@
     cursor: pointer;
 }
 
-/* .bloc-image img:hover {
+.bloc-image img:hover {
 
     transform: scale(1.05);
     cursor: pointer;
     filter: brightness(0.2);
-} */
+}
 .images-album{
     width: 100%;
     height: 100%;

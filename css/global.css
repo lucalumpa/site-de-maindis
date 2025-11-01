@@ -1,11 +1,15 @@
 *{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
     background-color: #EBE4DC;
     overflow-x:hidden ;
+    
 }
 @font-face {
     font-family: "AVENIR";
@@ -45,18 +49,42 @@ header{
     padding: 20px 20px 20px 20px;
     margin: 20px;
     color: rgb(255, 255, 255)4622;
-    /* position: fixed; */
+    position: fixed;
     background-color: rgba(255, 255, 255, 0.257);
     backdrop-filter: blur(5px);
     z-index:50;
     border-radius: 40px;
-    /* left:50%; */
-    /* transform: translateX(-50%); */
+    left:50%;
+    transform: translateX(-50%);
     transform-origin: center;
     width: 40%;
+    display: flex;
+    flex-direction: row;
+    
 
    
 }
+#accueil{
+    flex: 1;
+    transition: all 0.4s;
+    
+}
+#galerie{
+    flex:1;
+    transition: all 0.4s;
+}
+#contact_menu{
+    flex:1;
+    transition: all 0.4s;
+}
+
+#accueil:hover{transform: scale(1.1);color: #854646;}
+#galerie:hover{transform: scale(1.1);color: #854646;}
+#contact_menu:hover{
+    transform: scale(1.1);
+    color: #854646;
+}
+
 button{
     
     border: 2px solid #854646;

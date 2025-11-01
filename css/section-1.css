@@ -12,9 +12,11 @@
     width: 800px;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    
 }
-#section-banniere h1{
-    width: 50%;
+#section-banniere img{
+    width: 40%;
     /* border: 1px solid; */
 }
 #section-banniere p{
@@ -39,6 +41,8 @@
 #fleche {
     position: relative;
     stroke-width: 5px;
+    /* stroke-dasharray: 20%; */
+    stroke-linecap: round;
     stroke: #854646;
     
 }

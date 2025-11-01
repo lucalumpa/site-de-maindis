@@ -42,15 +42,20 @@ width: 100%;
     align-items: center;
     justify-content: center;
     margin: 100px;
+    width: 100%;
     position: relative;
+    gap: 70px;
+    transform: translateX(-5%);
 }
 
 #jardin-exception-gauche{
 
-    flex: 1;
+    
     display: flex;
     justify-content: center;
     position: relative;
+    flex:  0 1 400px;
+   
 }
 
 #jardin-exception-gauche img{
@@ -59,11 +64,17 @@ width: 400px;
 height: 400px;
 object-fit: cover;
 
+
 }
 #jardin-exception-droite {
+    flex:  0 1 400px;
+    justify-content: center;
 
-    flex: 1;
+    
+    
+    
 }
+
 
 #biographie h2{
     font-size: 40px;
