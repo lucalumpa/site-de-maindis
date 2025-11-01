@@ -137,3 +137,49 @@
 
     
 }
+
+#video-popup-overlay{
+    width: 100vw;
+    height: 100vh;
+    top:50%;
+    left: 50%;
+    transform: translateX(-35%) translateY(-38%);
+    z-index: 50;
+    position: fixed;
+    visibility:hidden;
+    opacity: 0;
+    transition: all 1s;
+ 
+}
+#svg-croix{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 2%;
+    stroke-width: 10%;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform: translate(-50px, -50px);
+    transform-origin: center;
+    transition: all 0.5s;
+   
+}
+#svg-croix:hover{
+    transform: translate(-50px, -50px) rotate(90deg) scale(1.1) ;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    
+}
+#overlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.52);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:30;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}  

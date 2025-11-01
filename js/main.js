@@ -8,6 +8,8 @@ import main_animation from './main_animation.js'
 import fleche_jardin from './fleche_jardin.js'
 import jardin_cercles from './jardin_cercles.js'
 import fleche_offrons from './fleche_offrons.js'
+import popup_box_video from './popup-box-video.js'
+import gallerie from './gallerie.js'
 
 gsap.registerPlugin(ScrollTrigger,MotionPathPlugin,DrawSVGPlugin)
 // On exécute les fonctions pour lancer les animations
@@ -19,3 +21,5 @@ main_animation()
 fleche_jardin()
 jardin_cercles()
 fleche_offrons()
+popup_box_video()
+gallerie()
