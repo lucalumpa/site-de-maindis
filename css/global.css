@@ -8,9 +8,40 @@ body{
     margin: 0;
     padding: 0;
     background-color: #EBE4DC;
-    overflow-x:hidden ;
+    overflow-x:hidden;
+    width: 100%;
     
 }
+/* bloque le scroll tant qu'on charge */
+html.is-loading,
+body.is-loading {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* le loader plein écran */
+#loader {
+    position: fixed;
+    inset: 0;
+    background: #0f172a;
+    /* tu mets ta couleur */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: opacity .4s ease;
+}
+
+#loader.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loader-inner {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: .08em;
 @font-face {
     font-family: "AVENIR";
     src: url("/font/Karu Light.otf") format("opentype");
@@ -119,4 +150,8 @@ a{
         
        
     }
+    body{
+        overflow-x: hidden;
+        width: 100vw;
+    };
 }

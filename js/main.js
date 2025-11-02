@@ -11,6 +11,7 @@ import fleche_offrons from './fleche_offrons.js'
 import popup_box_video from './popup-box-video.js'
 import gallerie from './gallerie.js'
 import menu from './menu.js'
+import loader from './loader.js'
 
 gsap.registerPlugin(ScrollTrigger,MotionPathPlugin,DrawSVGPlugin)
 // On exécute les fonctions pour lancer les animations
@@ -25,3 +26,4 @@ fleche_offrons()
 popup_box_video()
 gallerie()
 menu()
+loader()
