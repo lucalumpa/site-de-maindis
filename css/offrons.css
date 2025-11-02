@@ -97,7 +97,7 @@
 #compas{
     position: absolute;
     top: 0px;
-    transform: translate(500px,-700px) rotate(-40deg) scale(0.4);
+    transform: translate(500px,-1200px) rotate(-40deg) scale(0.4);
     opacity: 0.1;
     filter: sepia(1);
 }

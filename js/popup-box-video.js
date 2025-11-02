@@ -1,6 +1,6 @@
 export default function popup_box_video (){
 
-    const boxPlay = document.querySelector("#box-play")
+    const boxPlay = document.querySelector("#box-play img")
     const videoPopupOverlay = document.querySelector("#video-popup-overlay")
     const svgCroix = document.querySelector("#svg-croix")
     const overlay = document.querySelector("#overlay")

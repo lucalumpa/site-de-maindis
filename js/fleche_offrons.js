@@ -116,7 +116,7 @@ gsap.from(compas,{
         scroller:body,
         scrub:2
     },
-    y: -30,
+    y: -250,
     rotate: 10
 })
 

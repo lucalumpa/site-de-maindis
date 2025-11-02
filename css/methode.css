@@ -1,5 +1,5 @@
 #section-methode{
-    height: 80vh;
+    height: 100%;
     background:
             linear-gradient(to bottom, transparent 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 60%, transparent 100%),
             url('/img/cardboard_texture.jpg') center/cover no-repeat;
@@ -22,12 +22,11 @@
         position: relative;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 80%;
        
 }
 #methode-gauche{
     display: flex;
-    /* height: 100%; */
     justify-content: center;
     transform: rotate(-20deg) scale(1.6) translateX(-50px) translateY(-50px);
     flex: 1;
@@ -36,7 +35,7 @@
 
 }
 #methode-gauche img{
-width: 100%;
+width: 30vw;
 position: relative;
 transition: all 1s ease;
 transform-style: preserve-3d;
@@ -48,6 +47,13 @@ transform-style: preserve-3d;
 
 }
 #methode-droite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-direction: column;
+    /* font-size: 1.2vw; */
+    margin: 50px 100px 50px 0px ;
     flex: 1;
+    max-width: 400px;
 }

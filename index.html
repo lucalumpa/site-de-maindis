@@ -41,19 +41,27 @@
             </div>
             <div id="overlay"></div>
         <!-- POPUP VIDEO -->
-
+            <div id="box-photo-face">
+                <div id="empty-face"></div>
             <div id="photo-face-video">
-                <img src="/img/webp/vase-biot-poterie.webp" height="100%">
+                <img src="/img/webp/vase-biot-poterie.webp" width="100%">
+            </div>
+            
             </div>
         <div id="video-principale-gauche">
             <div class="box">
-                <div id="box-play"><a href="#">
-                <img src="/img/webp/bouton-play-de-maindis.webp" width="100%" alt="">
-                </a></div>
-                <video autoplay muted loop playsinline>
-                    <source src="/img/boucle_video_de_maindis.mp4" type="video/mp4">
+                
+                <div id="conteneur-video">
+                <video autoplay muted loop playsinline width="100%" >
+                    <source src="/img/boucle_video_de_maindis.mp4" type="video/mp4" >
                 </video>
+                <div id="box-play"><a>
+                        <img src="/img/webp/bouton-play-de-maindis.webp" width="100%" alt="">
+                    </a></div>
+                </div>
+                <div id="video-empty"></div>
             </div>
+            
         </div>
         <div id="animation-fleche-debut">
             
@@ -112,13 +120,13 @@ chapelle, châsse, reliquaire) et réserve naturelle. » — herman de vries</p>
 <div class="splide" id="image-carousel">
     <div class="splide__track">
         <ul class="splide__list">
-            <li class="splide__slide"><img src="/img/pré-selection/image55.jpg" width="100%" alt="Image 1"></li>
-            <li class="splide__slide"><img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08071.jpg" width="100%" alt="Image 2"></li>
-            <li class="splide__slide"><img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08394.jpg" width="100%" alt="Image 3"></li>
-            <li class="splide__slide"><img src="/img/pré-selection/image34.jpg" width="100%" alt="Image 4"></li>
-            <li class="splide__slide"><img src="/img/pré-selection/image31.jpg" width="100%" alt="Image 3"></li>
-            <li class="splide__slide"><img src="/img/pré-selection/image17.jpg" width="100%" alt="Image 3"></li>
-            <li class="splide__slide"><img src="/img/pré-selection/image4.jpg" width="100%" alt="Image 3"></li>
+            <li class="splide__slide"><img src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08071.jpg" width="100%" alt="Image 1"></li>
+            <li class="splide__slide"><img src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08127.jpg" width="100%" alt="Image 2"></li>
+            <li class="splide__slide"><img src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08191.jpg" width="100%" alt="Image 3"></li>
+            <li class="splide__slide"><img src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08198.jpg" width="100%" alt="Image 4"></li>
+            <li class="splide__slide"><img src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08441.jpg" width="100%" alt="Image 3"></li>
+            <li class="splide__slide"><img src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08568.jpg" width="100%" alt="Image 3"></li>
+            <li class="splide__slide"><img src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08609.jpg" width="100%" alt="Image 3"></li>
         </ul>
     </div>
 </div>
@@ -173,7 +181,7 @@ chapelle, châsse, reliquaire) et réserve naturelle. » — herman de vries</p>
     
 </div>
     <div id="fleche_jardin_bloc">
-        <svg viewBox="0 0 400 600" class="viewbox_fleche">
+        <svg viewBox="0 0 400 400" class="viewbox_fleche">
         
             <path id="fleche_jardin"
                 d="m54.26.15c19.87,63.66,17.13,113.04,12,144-4.03,24.27-9.61,57.97-26,61-16.63,3.08-44.72-25.36-39-51,2.36-10.58,11.1-23.43,23-25,24.02-3.18,56.28,40.17,61,83,3.07,27.84-6.05,50.4-16,75-15.97,39.49-30.81,47.24-41,81-7.82,25.88-7.43,48.93-6,64" fill="none" stroke="black" />
@@ -244,79 +252,133 @@ chapelle, châsse, reliquaire) et réserve naturelle. » — herman de vries</p>
     <div class="album">
 
 <div class="bloc-image">
-    <img class="images-album" id="image-12" src="/img/ALEX_PHOTOS/EXPORT/image12.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-13" src="/img/webp/selection_galerie/jarre-biot-createur.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo jarre-biot-createur">
+    <figcaption>Jarre n°1</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-13" src="/img/ALEX_PHOTOS/EXPORT/image13.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-14" src="/img/webp/selection_galerie/DSC08394.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08394">
+    <figcaption>Jarre n°2</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-14" src="/img/ALEX_PHOTOS/EXPORT/image14.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-15" src="/img/webp/selection_galerie/IMG_9466.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo IMG_9466">
+    <figcaption>Jarre n°3</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-15" src="/img/ALEX_PHOTOS/EXPORT/image15.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-16" src="/img/webp/selection_galerie/DSC07860.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC07860">
+    <figcaption>Jarre n°4</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-16" src="/img/ALEX_PHOTOS/EXPORT/image16.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-17" src="/img/webp/selection_galerie/DSC08593.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08593">
+    <figcaption>Jarre n°5</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-17" src="/img/ALEX_PHOTOS/EXPORT/image17.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-18" src="/img/webp/selection_galerie/jarre-potier-vence.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo jarre-potier-vence">
+    <figcaption>Jarre n°6</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-18" src="/img/ALEX_PHOTOS/EXPORT/image18.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
-</div>
-<div class="bloc-image">
-    <img class="images-album" id="image-19" src="/img/ALEX_PHOTOS/EXPORT/image19.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-19" src="/img/webp/selection_galerie/DSC08100.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08100">
+    <figcaption>Jarre n°7</figcaption>
 </div>
 
 <div class="bloc-image">
-    <img class="images-album" id="image-21" src="/img/ALEX_PHOTOS/EXPORT/image21.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-20" src="/img/webp/selection_galerie/DSC08605.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08605">
+    <figcaption>Jarre n°8</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-28" src="/img/pré-selection/P1013570.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-21" src="/img/webp/selection_galerie/DSC08084.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08084">
+    <figcaption>Jarre n°9</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-22" src="/img/ALEX_PHOTOS/EXPORT/image22.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-22" src="/img/webp/selection_galerie/DSC07924.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC07924">
+    <figcaption>Jarre n°10</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-23" src="/img/ALEX_PHOTOS/EXPORT/image23.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-23" src="/img/webp/selection_galerie/DSC08461.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08461">
+    <figcaption>Jarre n°11</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-24" src="/img/ALEX_PHOTOS/EXPORT/image24.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-24" src="/img/webp/selection_galerie/DSC08208.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08208">
+    <figcaption>Jarre n°12</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-25" src="/img/ALEX_PHOTOS/EXPORT/image25.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-25" src="/img/webp/selection_galerie/DSC08647.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08647">
+    <figcaption>Jarre n°13</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-26" src="/img/ALEX_PHOTOS/EXPORT/image26.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-26" src="/img/webp/selection_galerie/DSC07875.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC07875">
+    <figcaption>Jarre n°14</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-27" src="/img/ALEX_PHOTOS/EXPORT/image27.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-27" src="/img/webp/selection_galerie/vase-poterie-biot.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo vase-poterie-biot">
+    <figcaption>Jarre n°15</figcaption>
 </div>
 
 <div class="bloc-image">
-    <img class="images-album" id="image-29" src="/img/ALEX_PHOTOS/EXPORT/image29.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-28" src="/img/webp/selection_galerie/DSC07851.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC07851">
+    <figcaption>Jarre n°16</figcaption>
 </div>
 <div class="bloc-image">
-    <img class="images-album" id="image-30" src="/img/ALEX_PHOTOS/EXPORT/image30.jpg" width="100%" alt="">
-    <figcaption>Jarre n°40</figcaption>
+    <img class="images-album" id="image-29" src="/img/webp/selection_galerie/IMG_7845.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo IMG_7845">
+    <figcaption>Jarre n°17</figcaption>
 </div>
+<div class="bloc-image">
+    <img class="images-album" id="image-30" src="/img/webp/selection_galerie/DSC07949.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC07949">
+    <figcaption>Jarre n°18</figcaption>
+</div>
+<div class="bloc-image">
+    <img class="images-album" id="image-31" src="/img/webp/selection_galerie/DSC08043.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08043">
+    <figcaption>Jarre n°19</figcaption>
+</div>
+<div class="bloc-image">
+    <img class="images-album" id="image-32" src="/img/webp/selection_galerie/DSC08163.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08163">
+    <figcaption>Jarre n°20</figcaption>
+</div>
+<div class="bloc-image">
+    <img class="images-album" id="image-33" src="/img/webp/selection_galerie/DSC08185.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08185">
+    <figcaption>Jarre n°21</figcaption>
+</div>
+<div class="bloc-image">
+    <img class="images-album" id="image-34" src="/img/webp/selection_galerie/DSC08382.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08382">
+    <figcaption>Jarre n°22</figcaption>
+</div>
+<div class="bloc-image">
+    <img class="images-album" id="image-35" src="/img/webp/selection_galerie/DSC08448.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08448">
+    <figcaption>Jarre n°23</figcaption>
+</div>
+<div class="bloc-image">
+    <img class="images-album" id="image-36" src="/img/webp/selection_galerie/DSC08578.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo DSC08578">
+    <figcaption>Jarre n°24</figcaption>
+</div>
+<div class="bloc-image">
+    <img class="images-album" id="image-37" src="/img/webp/selection_galerie/IMG_7845 copie.webp" width="100%"
+        alt="jarre en terre cuite à Biot - potier - photo IMG_7845 copie">
+    <figcaption>Jarre n°25</figcaption>
+</div>
+
 
     </div>
 </div>
@@ -349,19 +411,19 @@ chapelle, châsse, reliquaire) et réserve naturelle. » — herman de vries</p>
     </div>
     <div class="offrons-para" id="offrons-texte-2">
         
-        <p>Un processus collaboratif : croquis, maquettes et échanges pour affiner la proposition avant réalisation.</p>
+        <p>Un processus collaboratif : croquis, maquettes et échanges pour affiner la proposition avant <span class="rouge-offrons">réalisation.</span></p>
         <div class="empty"></div>
 
     </div>
     <div class="offrons-para" id="offrons-texte-3">
         <div class="empty"></div>
-        <p>Un savoir-faire artisanal : pièces tournées à la main, en terres résistantes aux intempéries, pensées pour durer et
+        <p>Un savoir-faire artisanal : <span class="rouge-offrons">pièces tournées à la main,</span> en terres résistantes aux intempéries, pensées pour durer et
         évoluer naturellement.</p>
     </div>
 
     <div class="offrons-para" id="offrons-texte-4">
 
-        <p>Une signature artistique forte : chaque jarre devient un repère visuel et un espace vivant au cœur du jardin.</p>
+        <p>Une signature artistique forte : chaque jarre devient un repère visuel et un espace vivant au <span class="rouge-offrons">cœur du jardin.</span></p>
         <div class="empty"></div>
 
     </div>
@@ -425,7 +487,7 @@ chapelle, châsse, reliquaire) et réserve naturelle. » — herman de vries</p>
         </div>
 
         <div id="photo-formulaire">
-            <img src="/img/PHOTO_2025_JPG_NON_RETOUICHE/DSC08483.jpg" height="100%" alt="">
+            <img src="/img/webp/selection_galerie/DSC08461.webp" height="100%" alt="">
         </div>
     </div>
     <div id="coordonee">
@@ -458,7 +520,7 @@ chapelle, châsse, reliquaire) et réserve naturelle. » — herman de vries</p>
         </div>
     </div>
     <div id="footer-bas">
-        <div id="mention_legales_btn"><a href="#">Mentions Légales</a></div>
+        <div id="mention_legales_btn"><a href="/mentions-legales.html">Mentions Légales</a></div>
         <div id="yummy_film"><a href="https://yummyfilm.fr">Site crée par YUMMY FILM</a></div>
     </div>
 </div>

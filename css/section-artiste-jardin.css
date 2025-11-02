@@ -6,6 +6,7 @@ align-items: center;
 margin: 100px;
 position: relative;
 width: 100%;
+height: 100%;
 
 }
 #biographie{
@@ -34,15 +35,20 @@ width: 100%;
 }
 #fleche_jardin_bloc{
     height: 500px;
+    
     position: relative;
+    
 }
-
+.viewbox_fleche{
+    height: 100%;
+}
 #sous-section-jardin{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 100px;
     width: 100%;
+   
     position: relative;
     gap: 70px;
     transform: translateX(-5%);

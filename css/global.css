@@ -54,12 +54,14 @@ header{
     backdrop-filter: blur(5px);
     z-index:50;
     border-radius: 40px;
+    top: 20px;
     left:50%;
     transform: translateX(-50%);
     transform-origin: center;
     width: 40%;
     display: flex;
     flex-direction: row;
+    
     
 
    
@@ -103,4 +105,18 @@ a{
     color: inherit;
     
 
+}
+
+@media screen and (max-width:768px){
+    header{
+        font-size: 15px;
+        justify-content: space-around;
+        gap: 20px;
+        width: 40%;
+        margin: 0;
+        left: 0;
+        
+        
+       
+    }
 }
