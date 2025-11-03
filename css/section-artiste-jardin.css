@@ -89,8 +89,9 @@ object-fit: cover;
 
 #biographie h2{
     font-size: 40px;
-    font-family: 'AVENIR';
-    
+    font-family: 'AVENIR_TITRE';
+
+
 }
 #bio_couleur{
     color: #854646;
