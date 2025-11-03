@@ -14,7 +14,7 @@ body{
     overflow-x:clip;
     width: 100%;
     max-width: 100%;
-    
+
     position: relative;
     
 }
@@ -69,6 +69,7 @@ body.is-loading {
 p{
     font-family: "AVENIR";
     color: black;
+    font-size: 16px;
 }
 h1{
     font-family: "CHEROLINA";
@@ -82,31 +83,36 @@ h2,h3,h4 {
     color: black;
 }
 header{
-    text-align: center;
-    font-family: "AVENIR_LIGHT";
-    padding: 20px 20px 20px 20px;
-    margin: 20px;
-    color: rgb(255, 255, 255)4622;
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.257);
-    backdrop-filter: blur(5px);
-    z-index:50;
-    border-radius: 40px;
     top: 20px;
-    left:50%;
-    transform: translateX(-50%);
-    transform-origin: center;
-    width: 40%;
+    width: 100%;
+    position: fixed;
+    z-index:50;
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
+    align-items: center;
     
 
-   
+    
+}
+#menu_box{
+    background-color: rgba(255, 255, 255, 0.305);
+    border-radius: 40px;
+    backdrop-filter: blur(5px);
+    
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    font-family: "AVENIR_LIGHT";
+    color: #864646;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 #accueil{
     flex: 1;
     transition: all 0.4s;
+    
+    
     
 }
 #galerie{
@@ -145,23 +151,7 @@ a{
 
 }
 
-@media screen and (max-width:768px){
-    header{
-        font-size: 15px;
-        justify-content: space-around;
-        gap: 20px;
-        width: 40%;
-        margin: 0;
-        left: 0;
-        
-        
-       
-    }
-    body{
-        overflow-x: hidden;
-        width: 100vw;
-    };
-}
+
 
 /* HTML: <div class="loader"></div> */
 #loader-inner {

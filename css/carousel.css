@@ -7,3 +7,10 @@
     user-select: none;
     cursor: grab;
 }
+@media screen and (max-width:1024px) {
+    #section-carousel{
+    height: 50vh;
+    margin-top:100px;
+    
+    }
+}

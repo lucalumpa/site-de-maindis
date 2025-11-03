@@ -36,23 +36,24 @@ height: 100%;
 }
 #fleche_jardin_bloc{
     height: 500px;
-    
+   left: 40%;
     position: relative;
-    
+
 }
-.viewbox_fleche{
+.viewbox_fleche_jardin{
     height: 100%;
+    
 }
 #sous-section-jardin{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100px;
+    /* margin: 100px; */
     width: 100%;
    
     position: relative;
     gap: 70px;
-    transform: translateX(-5%);
+    /* transform: translateX(-5%); */
 }
 
 #jardin-exception-gauche{
@@ -62,6 +63,7 @@ height: 100%;
     justify-content: center;
     position: relative;
     flex:  0 1 400px;
+   
    
 }
 
@@ -75,11 +77,13 @@ object-fit: cover;
 }
 #jardin-exception-droite {
     flex:  0 1 400px;
+    display: flex;
     justify-content: center;
+    text-align: center;
+    
+    flex-direction: column;
 
-    
-    
-    
+
 }
 
 
@@ -127,4 +131,54 @@ transform: scale(1.5);
 transform-origin: center;
 
 top: 0;
+}
+
+@media screen and (max-width:1024px){
+
+
+    #biographie {
+    
+            padding-left: 0;
+            width: 40%;
+           
+
+    
+        }
+
+
+#sous-section-jardin{
+
+    transform: translateX(0%);
+    gap: 30px;
+    flex-direction: column;
+    display: flex;
+    
+    margin-top: 50px;
+
+}
+#fleche_jardin_bloc {
+
+display: flex;
+justify-content: center;
+   
+}
+#jardin-exception-droite{
+
+width: 50%;
+margin-top: 50px;
+
+}
+.viewbox_fleche_jardin{
+    width: auto;
+    
+    display: flex;
+    justify-content: center;
+}
+#fleche_jardin{
+    width: 100%;
+    transform: translateX(45%);
+
+}
+
+
 }

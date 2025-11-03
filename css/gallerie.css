@@ -12,6 +12,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     color: #864646;
+    
 }
 .album{
     position: relative;
@@ -22,7 +23,7 @@
     flex-wrap: wrap;
     flex: 1;
     gap: 20px;
-    
+   
 }
 .bloc-image img{
     transition: all 0.3s;
@@ -214,3 +215,29 @@ position: absolute;
 
 }
 
+
+@media screen and (max-width:1024px) {
+    #section-galerie {
+            margin-top: 200px;
+            font-size: 0;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+    
+        }
+        .bloc-image{
+            height: 80px;
+
+        }
+
+                #section-galerie h2 {
+                    width: 60px;
+                    writing-mode: vertical-rl;
+                    text-orientation: upright;
+                    color: #864646;
+                    font-size: 60px;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                }
+    
+}

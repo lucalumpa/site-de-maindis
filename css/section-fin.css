@@ -34,5 +34,35 @@ display: flex;
     text-align: center;
     display: flex;
     align-items: center;
+   
     
+    
+}
+
+@media screen and (max-width:1024px) {
+
+    #sous-section-fin{
+    width: 100%;
+    gap: 30px;
+    padding: 50px;
+    margin: 50px;
+}
+#fin-gauche img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
+
+}
+#fin-gauche {
+   
+    
+    justify-content: center;
+    display: flex;
+
+}
+    #fin-droite{
+        flex: 1 1 30%;
+    }
 }
