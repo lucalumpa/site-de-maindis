@@ -30,7 +30,7 @@ ul{
     align-items: center;
     flex: 1;
     
-    border: 1px solid red;
+   
     
 }
 #logo{
@@ -41,7 +41,7 @@ ul{
     justify-content: center;
     /* On pourra l'enlever plus tard */
     width: 50%;
-    border: 1px solid red;
+    
   
 }
 #adresse{
@@ -54,7 +54,7 @@ ul{
    
     font-family: 'AVENIR_LIGHT';
     font-size: 14px;
-    border: 1px solid red;
+    
 
     
     
