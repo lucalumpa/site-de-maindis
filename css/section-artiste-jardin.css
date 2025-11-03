@@ -160,6 +160,8 @@ top: 0;
 
 display: flex;
 justify-content: center;
+
+left: 20%;
    
 }
 #jardin-exception-droite{
@@ -176,7 +178,7 @@ margin-top: 50px;
 }
 #fleche_jardin{
     width: 100%;
-    transform: translateX(45%);
+    
 
 }
 
