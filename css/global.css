@@ -67,9 +67,15 @@ body.is-loading {
 }
 
 p{
+    
     font-family: "AVENIR";
     color: black;
     font-size: 16px;
+    font-variant-ligatures: none;
+        -webkit-font-feature-settings: "liga" 0;
+        /* désactive ligatures dans Chrome/Safari */
+        font-feature-settings: "liga" 0;
+        /* désactive ligatures dans Firefox */
 }
 h1{
     font-family: "CHEROLINA";
