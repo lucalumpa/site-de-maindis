@@ -34,7 +34,7 @@ export default function menu() {
     // 4. scroll vers le haut → montrer
     if (diff < 0 && isHidden) {
       gsap.killTweensOf(menu);
-      gsap.to(menu, { duration: 0.8, y: 0, ease: "power2.out" });
+      gsap.to(menu, { duration: 0.8, y: 0, ease: "elastic.out(1,0.9)" });
       isHidden = false;
     }
 

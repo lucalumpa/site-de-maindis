@@ -101,42 +101,152 @@ header{
 
     
 }
-#menu_box{
-    background-color: rgba(255, 255, 255, 0.305);
-    border-radius: 40px;
-    backdrop-filter: blur(5px);
-    
-    text-align: center;
-    padding: 15px 30px 15px 30px;
-    font-family: "AVENIR_LIGHT";
-    color: #864646;
+
+#menu_box {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-}
-#accueil{
-    flex: 1;
-    transition: all 0.4s;
-    
-    
-    
-}
-#galerie{
-    flex:1;
-    transition: all 0.4s;
-}
-#contact_menu{
-    flex:1;
-    transition: all 0.4s;
+    width: 292px;
+    border: 1px solid;
+    font-size: 16px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    border-color: #864646;
+    overflow: hidden;
+    color: #864646;
+    font-family: "AVENIR";
+    background-color: rgba(255, 255, 255, 0.167);
+    backdrop-filter: blur(5px);
 }
 
-#accueil:hover{transform: scale(1.1);color: #854646;}
-#galerie:hover{transform: scale(1.1);color: #854646;}
-#contact_menu:hover{
-    transform: scale(1.1);
-    color: #854646;
+/* BOUTON ACCUEIL */
+#accueil {
+
+    position: relative;
 }
 
+#accueil::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: #864646;
+    right: -12px;
+    top: 10px;
+    transition: all 0.8s;
+}
+
+#accueil::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: #864646;
+    right: -12px;
+    bottom: 10px;
+    transition: all 0.8s;
+}
+
+/* BOUTON GALERIE */
+#galerie {
+    position: relative;
+}
+
+#galerie::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: #864646;
+    left: -13px;
+    top: 10px;
+    transition: all 0.8s;
+
+
+}
+
+#galerie::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: #864646;
+    left: -13px;
+    bottom: 10px;
+    transition: all 0.8s;
+
+
+}
+
+#galerie a::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: #864646;
+    right: -13px;
+    bottom: 10px;
+    transition: all 0.8s;
+
+
+}
+
+#galerie a::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: #864646;
+    right: -13px;
+    top: 10px;
+    transition: all 0.8s;
+
+
+}
+
+/* BOUTON CONTACT */
+#contact_menu {
+    position: relative;
+}
+
+#contact_menu::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: #864646;
+    left: -12px;
+    top: 10px;
+    transition: all 0.8s;
+
+
+}
+
+#contact_menu::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: #864646;
+    left: -12px;
+    bottom: 10px;
+    transition: all 0.8s;
+
+
+}
+
+
+/* HOVER BOUTONS */
+#galerie:hover::after,
+#galerie:hover::before,
+#galerie a:hover::before,
+#galerie a:hover::after,
+#accueil:hover::before,
+#accueil:hover::after,
+#contact_menu:hover::before,
+#contact_menu:hover::after {
+    height: 25px;
+
+}
 button{
     
     border: 2px solid #854646;
