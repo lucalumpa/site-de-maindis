@@ -92,6 +92,15 @@
     width: 60%;
     /* margin-bottom: 120px; */
 }
+#legende_ordi p{
+width: 50%;
+text-align: center; 
+font-style: italic; 
+}
+#legende_ordi{
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (max-width:768px){
 
