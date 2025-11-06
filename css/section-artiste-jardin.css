@@ -185,3 +185,48 @@ margin-top: 50px;
 
 
 }
+
+@media screen and (max-width:768px) {
+    
+    #section-artiste{
+        margin: 20px;
+        width: 100%;
+    }
+    #biographie{
+        width: 90%;
+        padding-left: 0;
+        height: auto; 
+        
+
+    }
+    #biographie p{
+        background-color: #ebe4dc31;
+    }
+    #biographie h2{
+        z-index: -5;
+    }
+    #main{
+        width: 110%;
+        opacity: 1;
+        top:-10px;
+        right: 10px;
+        transform: rotate(10deg) translateX(200px) translateY(100px) scale(1.15);
+
+    }
+    
+    #jardin-exception-gauche{
+        transform: scale(0.6);
+        
+    }
+    .viewbox_fleche_jardin{
+        transform: translateX(20%) scale(1.2);
+    }
+    #jardin-exception-droite{
+        width: 100%;
+        padding: 15px;
+        
+    }
+    #sous-section-jardin{
+        gap: 0px;
+    }
+}

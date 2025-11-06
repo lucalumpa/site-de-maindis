@@ -40,6 +40,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 }
 
             })
+            gsap.from("#fleche_mobile",{
+
+                drawSVG:1,
+                duration:3,
+                  scrollTrigger: {
+
+                    trigger: "#section-video-animation",
+                    start: "top 20%",
+                    
+                    scrub: 2
+
+                }
+
+            })
 
             gsap.to("#chevron",{
                 opacity:1,

@@ -86,8 +86,104 @@
     text-align: center;
     width: 100%;
     font-size:15px;
+    display: none;
 }
 #legende p{
     width: 60%;
     /* margin-bottom: 120px; */
 }
+
+@media screen and (max-width:768px){
+
+#section-philo{
+    flex-direction: column;
+    gap: 10px; 
+}
+    #conteneur-philo{
+        flex-direction: column;
+        width: 100%;
+        
+        gap:20px;
+        
+    }
+
+
+  #masque-video-philo video {
+            display: flex;
+          
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            object-position: 0% 70% ;
+
+            z-index: -1;
+            border-radius: 30px;
+        }
+
+#cont-philo-gauche {
+
+    
+    
+    text-align: left;
+    width: 90%;
+    height: 100%;
+    justify-content: baseline;
+    align-items: baseline;
+
+}
+
+#cont-philo-droite {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    height:100%;
+    width: 100%;
+    margin: 0;
+
+
+}
+#masque-video-philo {
+
+    position: relative;
+    border-radius: 60px;
+    overflow: hidden;
+    width: 90%;
+    height: 100%;   
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+
+}
+
+#cont-philo-gauche h2 {
+
+    text-align: left;
+    font-size: 2em;
+    color: #864646;
+}
+
+#legende p{
+    position: relative;
+    font-size: 10px;
+    width: 90%;
+
+}
+#legende{
+    position: relative;
+    width: 100%;
+  
+    align-items: baseline;
+    margin: 0;
+    padding: 0;
+   
+
+}
+#legende_ordi{
+
+    display: none;
+}
+
+
+    }

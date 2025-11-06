@@ -8,6 +8,9 @@ export default function carousel(){
                 1025: {
                 perPage: 2,
             },
+            768:{
+                perPage:1,
+            },
             },
             autoplay: true,
             gap: '1rem',

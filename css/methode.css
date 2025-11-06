@@ -73,3 +73,31 @@ transform-style: preserve-3d;
 }
 
 }
+
+@media screen and (max-width:768px){
+    #section-methode{
+        margin-bottom: 150px;
+    }
+    #sous-section-methode{
+        flex-direction: column-reverse; 
+    }
+    #methode-gauche{
+        
+        position: absolute;
+       top: 0;   
+       left: 0%;    
+       z-index: 0; 
+       transform: rotate(30deg) scale(2) ; 
+        
+       opacity: 1;
+       
+    }
+    #methode-gauche img{
+   
+        border-radius: 20px;
+
+    }
+  #methode-droite p{  
+    z-index: 1;
+  }
+}
