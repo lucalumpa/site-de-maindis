@@ -215,7 +215,9 @@ position: absolute;
 
 }
 
-
+#album-more {
+    display: none;
+}
 @media screen and (max-width:1024px) {
     #section-galerie {
             margin-top: 200px;
@@ -245,7 +247,7 @@ position: absolute;
 @media screen and (max-width:768px) {
 .bloc-image {
         /* changer height pour le mobile */
-        height: 90px;
+        height: 70px; 
     
         display: flex;
         align-items: center;
@@ -266,5 +268,4 @@ position: absolute;
 .album{
     gap: 2px;
 }
-
 }
