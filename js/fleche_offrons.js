@@ -4,13 +4,13 @@ export default function fleche_offrons(){
 const sectionOffrons = document.querySelector("#section-offrons")
 const flecheOffrons = document.querySelector("#fleche-offrons")
 const flecheOffronsSvg = document.querySelector("#fleche_offrons_svg")
-const chevronOffrons = document.querySelector("#chevron_offrons")
+// const chevronOffrons = document.querySelector("#chevron_offrons")
 const body = document.querySelector("body")
 const compas = document.querySelector("#compas")
 const outilDeux = document.querySelector("#outil_deux")
 const outilTrois = document.querySelector("#outil_trois")
 const outilQuatre = document.querySelector("#outil_quatre")
-const groupeChevron = document.querySelector("#groupe-chevron")
+// const groupeChevron = document.querySelector("#groupe-chevron")
 const sectionBouton = document.querySelector("#section-bouton")
 const titreOffrons = document.querySelector("#titre-offrons")
 
@@ -20,12 +20,11 @@ const titreOffrons = document.querySelector("#titre-offrons")
 gsap.from(flecheOffronsSvg,{
     drawSVG:1,
     scrollTrigger:{
-        scroller:body,
         trigger: sectionOffrons,
-        
+        markers:true,
         scrub:2,
         start:"top 40%",
-        end:"bottom 80",
+       
         
     },
 
@@ -45,26 +44,26 @@ gsap.from(flecheOffronsSvg,{
 //     opacity:1,
 // })
 
-gsap.to(chevronOffrons,{
+// gsap.to(chevronOffrons,{
     
-    scrollTrigger:{
+//     scrollTrigger:{
         
-        trigger: sectionOffrons,
+//         trigger: sectionOffrons,
         
-        scrub:2,
-        start:"top 40%",
-        end:"bottom 80",
+//         scrub:2,
+//         start:"top 40%",
+//         end:"bottom 80",
         
-    },
-    motionPath:{
-        path:flecheOffronsSvg,
-        align:flecheOffronsSvg,
-        alignOrigin:[0.5,1],
+//     },
+//     motionPath:{
+//         path:flecheOffronsSvg,
+//         align:flecheOffronsSvg,
+//         alignOrigin:[0.5,1],
        
-        autoRotate:-90,
-    },
+//         autoRotate:-90,
+//     },
       
-})
+// })
 gsap.to(sectionOffrons,{
 
     scrollTrigger:{
@@ -80,21 +79,21 @@ gsap.to(sectionOffrons,{
     duration:2
 
 })
-gsap.to(groupeChevron,{
+// gsap.to(groupeChevron,{
 
-    scrollTrigger:{
-          trigger: sectionOffrons,
+//     scrollTrigger:{
+//           trigger: sectionOffrons,
         
         
-        start:"top 40%",
-        end:"bottom 80",
+//         start:"top 40%",
+//         end:"bottom 80",
       
-    },
+//     },
    
-    opacity:1,
-    duration:1
+//     opacity:1,
+//     duration:1
 
-})
+// })
 gsap.to(sectionBouton,{
 
     scrollTrigger:{
@@ -113,7 +112,7 @@ gsap.to(sectionBouton,{
 gsap.from(compas,{
     scrollTrigger:{
         trigger:sectionOffrons,
-        scroller:body,
+        
         scrub:2
     },
     y: -250,
@@ -123,7 +122,7 @@ gsap.from(compas,{
 gsap.from(outilDeux,{
     scrollTrigger:{
         trigger:sectionOffrons,
-        scroller:body,
+      
         scrub:2
     },
     y: -10,
@@ -134,7 +133,7 @@ gsap.from(outilDeux,{
 gsap.from(outilTrois,{
     scrollTrigger:{
         trigger:sectionOffrons,
-        scroller:body,
+       
         scrub:2
     },
     y: -20,
@@ -145,7 +144,7 @@ gsap.from(outilTrois,{
 gsap.from(outilQuatre,{
     scrollTrigger:{
         trigger:sectionOffrons,
-        scroller:body,
+        
         scrub:2
     },
     y: -5,

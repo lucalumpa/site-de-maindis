@@ -2,27 +2,27 @@ export default function fleche(){
     
 document.addEventListener("DOMContentLoaded", (event) => {
           
-            gsap.set("#chevron", {rotate:(100)})
-            gsap.to("#chevron",{
+            // gsap.set("#chevron", {rotate:(100)})
+            // gsap.to("#chevron",{
                 
-                motionPath:{
-                    path: "#fleche",
-                    align: "#fleche",
-                    alignOrigin: [0.5, 1],
-                    autoRotate: -90
+            //     motionPath:{
+            //         path: "#fleche",
+            //         align: "#fleche",
+            //         alignOrigin: [0.5, 1],
+            //         autoRotate: -90
                     
-                },
-                duration:3,
+            //     },
+            //     duration:3,
                
-                scrollTrigger: {
+            //     scrollTrigger: {
 
-                    trigger: "#section-video-animation",
-                    start: "top 60%",
+            //         trigger: "#section-video-animation",
+            //         start: "top 60%",
                     
-                    scrub:2
+            //         scrub:2
 
-                }
-            })
+            //     }
+            // })
 
             
 
@@ -55,13 +55,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
             })
 
-            gsap.to("#chevron",{
-                opacity:1,
-                scrollTrigger:{
-                    trigger:"#section-video-animation",
-                    start: "top 60%",
-                }
-            })
+            // gsap.to("#chevron",{
+            //     opacity:1,
+            //     scrollTrigger:{
+            //         trigger:"#section-video-animation",
+            //         start: "top 60%",
+            //     }
+            // })
 
             gsap.to("#section-banniere",{
                 duration:2,
