@@ -36,7 +36,7 @@ body.is-loading {
     justify-content: center;
     z-index: 9999;
     transition: opacity .4s ease;
-}
+}               
 
 #loader.hidden {
     opacity: 0;
