@@ -639,10 +639,11 @@
 <script>
     new LazyLoad({
         elements_selector: ".lazy", // c'est tout
+        rootMargin: "600px 0px",      // (voir point 3)
+        threshold: 0.01,
         callback_loaded: (el) => {
-            if (el.tagName === "VIDEO") {
-                el.play(); // 🔥 lance l’autoplay dès que la vidéo est chargée
-            }
+            if (el.tagName === "VIDEO") el.play();
+            if (window.ScrollTrigger) ScrollTrigger.refresh(); 
         }
     });
 </script>
