@@ -251,7 +251,7 @@ position: absolute;
         align-items: center;
         flex-direction: row;
         object-fit: cover;
-
+        content-visibility: auto;
         position: relative;
 
     }
