@@ -255,7 +255,14 @@ position: absolute;
         position: relative;
 
     }
+          .bloc-image img:hover {
+              transform: none;
+              filter: none;
+          }
     
+          .bloc-image:hover figcaption {
+              opacity: 0;
+          }
 .album{
     gap: 2px;
 }
