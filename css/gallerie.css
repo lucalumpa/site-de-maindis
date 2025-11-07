@@ -245,7 +245,7 @@ position: absolute;
 @media screen and (max-width:768px) {
 .bloc-image {
         /* changer height pour le mobile */
-        height: 40px;
+        height: 80px;
 
         display: flex;
         align-items: center;
