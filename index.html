@@ -174,7 +174,7 @@
             </li>
         
             <li class="splide__slide">
-                <img class="lazy" src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08609_placeholder.webpÒ"
+                <img class="lazy" src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08609_placeholder.webp"
                     data-src="/img/SELECTION LUCA ANDRé/CAROUSEL/DSC08609.jpg" width="100%" alt="Image 7">
             </li>
         </ul>
@@ -636,14 +636,15 @@
 <script type="module" src="./js/main.js" defer></script>
 
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17/dist/lazyload.min.js"></script>
+
 <script>
+    // 1 ligne utile : on refresh quand un média lazy vient de se charger
     new LazyLoad({
-        elements_selector: ".lazy", // c'est tout
-        rootMargin: "600px 0px",      // (voir point 3)
-        threshold: 0.01,
+        elements_selector: ".lazy",
+        // rootMargin: "400px 0px",
         callback_loaded: (el) => {
-            if (el.tagName === "VIDEO") el.play();
-            if (window.ScrollTrigger) ScrollTrigger.refresh(); 
+            if (el.tagName === "VIDEO") { try { el.play(); } catch (e) { } } // si tu as de la vidéo en autoplay
+            if (window.ScrollTrigger) ScrollTrigger.refresh();             // <- la ligne qui débloque tout
         }
     });
 </script>
