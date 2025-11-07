@@ -21,7 +21,8 @@ gsap.from(flecheOffronsSvg,{
     drawSVG:1,
     scrollTrigger:{
         trigger: sectionOffrons,
-        markers:true,
+        invalidateOnRefresh: true,
+       
         scrub:2,
         start:"top 40%",
        
@@ -69,7 +70,7 @@ gsap.to(sectionOffrons,{
     scrollTrigger:{
           trigger: sectionOffrons,
         
-        
+        invalidateOnRefresh: true,
         start:"top 90%",
         end:"bottom 80",
       
@@ -100,7 +101,7 @@ gsap.to(sectionBouton,{
         trigger:sectionBouton,
         start:"top 50%",
         end:"top 10%",
-        
+        invalidateOnRefresh: true,
       
     },
    
@@ -112,7 +113,7 @@ gsap.to(sectionBouton,{
 gsap.from(compas,{
     scrollTrigger:{
         trigger:sectionOffrons,
-        
+        invalidateOnRefresh: true,
         scrub:2
     },
     y: -250,
@@ -122,7 +123,7 @@ gsap.from(compas,{
 gsap.from(outilDeux,{
     scrollTrigger:{
         trigger:sectionOffrons,
-      
+      invalidateOnRefresh: true,
         scrub:2
     },
     y: -10,
@@ -133,7 +134,7 @@ gsap.from(outilDeux,{
 gsap.from(outilTrois,{
     scrollTrigger:{
         trigger:sectionOffrons,
-       
+       invalidateOnRefresh: true,
         scrub:2
     },
     y: -20,
@@ -144,7 +145,7 @@ gsap.from(outilTrois,{
 gsap.from(outilQuatre,{
     scrollTrigger:{
         trigger:sectionOffrons,
-        
+        invalidateOnRefresh: true,
         scrub:2
     },
     y: -5,
