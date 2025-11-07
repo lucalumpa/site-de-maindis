@@ -628,7 +628,7 @@
     // 1 ligne utile : on refresh quand un média lazy vient de se charger
     new LazyLoad({
         elements_selector: ".lazy",
-        threshold: 600,
+        threshold: 1000,
         // rootMargin: "400px 0px",
         callback_loaded: (el) => {
             if (el.tagName === "VIDEO") { try { el.play(); } catch (e) { } } // si tu as de la vidéo en autoplay
