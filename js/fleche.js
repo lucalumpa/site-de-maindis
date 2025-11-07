@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
                     trigger: "#section-video-animation",
                     start: "top 60%",
-                 
+                 invalidateOnRefresh: true,
                     scrub: 2
 
                 }
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 drawSVG:1,
                 duration:3,
                   scrollTrigger: {
-
+                    invalidateOnRefresh: true,
                     trigger: "#section-video-animation",
                     start: "top 20%",
                     
@@ -65,11 +65,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
             gsap.to("#section-banniere",{
                 duration:2,
-                opacity:1
+                opacity:1,
+                invalidateOnRefresh: true,
             })
                gsap.to("#section-video-animation",{
                 duration:2,
-                opacity:1
+                opacity:1,
+                invalidateOnRefresh: true,
             })
 
 

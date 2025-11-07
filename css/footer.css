@@ -94,3 +94,23 @@ margin-right: 30px;
     text-align: center;
       
 }
+
+@media screen and (max-width:768px) {
+    #logo img{
+        width: 100%;
+        height: auto;
+        
+    }
+    #footer-haut p{
+        font-size: 10px;
+    }
+    #footer-haut{
+        font-size: 15px;
+    }
+    #footer-bas{
+        font-size: 10px;
+        
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}

@@ -73,8 +73,9 @@ input{
     margin: 100px 0px 100px 0px;
 }
 #formulaire-maintenance{
-    width: 110%;
+    width: 110%; 
     height: 110%;
+    min-width: 400px;
     position: absolute;
     background-color: rgba(69, 69, 69, 0.132);
     backdrop-filter: blur(20px);
@@ -82,13 +83,14 @@ input{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    padding: 100px;
+    padding: 10%;
     color: white;
     flex-direction: column;
 
 }
 #formulaire-maintenance h2{
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 #formulaire-maintenance p {
     color: rgb(0, 0, 0);

@@ -100,4 +100,7 @@ transform-style: preserve-3d;
   #methode-droite p{  
     z-index: 1;
   }
+  #methode-droite{
+    margin: 50px 0px 50px 0px;
+  }
 }

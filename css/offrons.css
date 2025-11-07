@@ -137,4 +137,20 @@
         gap: 60%;
 
     }
+   
+}
+@media screen and (max-width:768px) {
+
+    .offrons-para {
+        
+        padding: 20px;
+        
+        text-align: center;
+        flex-direction: row-reverse;
+        
+    }
+    #titre-offrons{
+        font-size: 30px;
+    }
+
 }

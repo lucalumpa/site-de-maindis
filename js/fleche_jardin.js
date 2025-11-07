@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 drawSVG:1,
                 duration:3,
                   scrollTrigger: {
-
+                    invalidateOnRefresh: true,
                     trigger: "#main",
                     start: "bottom 100%",
                  

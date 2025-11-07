@@ -11,6 +11,7 @@ export default function main_animation(){
 
             trigger:main,
             scrub: 1,
+            invalidateOnRefresh: true,
             
         },
         
@@ -23,6 +24,7 @@ export default function main_animation(){
         scrollTrigger:{
             trigger:biographie,
             start:"top 30%",
+            invalidateOnRefresh: true,
             
         },
           opacity:1,
