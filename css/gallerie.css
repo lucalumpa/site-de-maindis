@@ -247,7 +247,7 @@ position: absolute;
 @media screen and (max-width:768px) {
 .bloc-image {
         /* changer height pour le mobile */
-        height: 70px; 
+        height: 90px; 
     
         display: flex;
         align-items: center;
@@ -268,4 +268,26 @@ position: absolute;
 .album{
     gap: 2px;
 }
+
+ #image-39,
+ #image-38,
+ #image-37,
+ #image-36,
+ #image-35,
+ #image-34,
+ #image-33,
+ #image-32,
+ #image-31,
+ #image-30,
+ #image-29,
+ #image-28,
+ #image-27,
+ #image-26,
+ #image-25,
+ #image-24,
+ #image-23,
+ #image-22
+ {
+     display: none !important;
+ }
 }
