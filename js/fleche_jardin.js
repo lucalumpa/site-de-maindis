@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 duration:3,
                   scrollTrigger: {
                     invalidateOnRefresh: true,
-                    trigger: "#main",
-                    start: "bottom 100%",
-                 
+                    trigger: "#fleche_jardin", 
+                    start: "center 100%", 
+                    markers:true,
                     scrub: 2
 
                 }
