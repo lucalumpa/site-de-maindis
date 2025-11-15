@@ -12,8 +12,10 @@ import popup_box_video from './popup-box-video.js'
 import gallerie from './gallerie.js'
 import menu from './menu.js'
 import loader from './loader.js'
+import cta from './cta.js'
 
-gsap.registerPlugin(ScrollTrigger,MotionPathPlugin,DrawSVGPlugin)
+gsap.registerPlugin(ScrollTrigger,MotionPathPlugin,DrawSVGPlugin,SplitText)
+
 loader()
 gallerie()
 menu()
@@ -26,13 +28,13 @@ window.addEventListener("load",()=>{
 
 fleche()
 philo()
-
+cta()
 brouillon()
 main_animation()
 fleche_jardin()
 fleche_offrons()
+scrollTrigger.refresh();
 
-ScrollTrigger.refresh()
 })
 
 

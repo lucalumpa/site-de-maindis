@@ -1,10 +1,45 @@
+#bloc-cta{
+
+    height: 100vh;
+   
+    margin-bottom: 100px;
+}
 #call-to-action{
-    display: flex;
+ display: flex;
+ justify-content: center;
+ align-items: center;
     text-align: center;
-    justify-content: center;
+   
     width: 100%;
-    margin-bottom: 300px;
+     
+  
+    position: relative;
+    height: 100%;
+
+   
 }
 #call-to-action p{
-    width: 200px;
+    width: 40%;
+    font-size: 20px ;
+    
+   
+}  
+.word{
+    transition:  color 0.1s, padding 0.5s;
+    
 }
+.word:hover{
+
+
+    color: #864646;
+  
+}
+
+@media screen and (max-width:768px) {
+
+    #call-to-action p {
+            width: 50%;
+            font-size: 15px;
+        }
+
+} 
