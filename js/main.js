@@ -13,20 +13,26 @@ import gallerie from './gallerie.js'
 import menu from './menu.js'
 import loader from './loader.js'
 
+gsap.registerPlugin(ScrollTrigger,MotionPathPlugin,DrawSVGPlugin)
 loader()
 gallerie()
 menu()
-
-gsap.registerPlugin(ScrollTrigger,MotionPathPlugin,DrawSVGPlugin)
-// On exécute les fonctions pour lancer les animations
-philo()
 carousel()
+jardin_cercles()
+popup_box_video()
+// On exécute les fonctions pour lancer les animations
+
+window.addEventListener("load",()=>{
+
 fleche()
+philo()
+
 brouillon()
 main_animation()
 fleche_jardin()
-jardin_cercles()
 fleche_offrons()
-popup_box_video()
+
+ScrollTrigger.refresh()
+})
 
 
