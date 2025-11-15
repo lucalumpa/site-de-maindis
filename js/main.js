@@ -13,6 +13,10 @@ import gallerie from './gallerie.js'
 import menu from './menu.js'
 import loader from './loader.js'
 
+loader()
+gallerie()
+menu()
+
 gsap.registerPlugin(ScrollTrigger,MotionPathPlugin,DrawSVGPlugin)
 // On exécute les fonctions pour lancer les animations
 philo()
@@ -24,6 +28,5 @@ fleche_jardin()
 jardin_cercles()
 fleche_offrons()
 popup_box_video()
-gallerie()
-menu()
-loader()
+
+
